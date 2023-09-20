@@ -1,14 +1,13 @@
 import NavBar from './Components/NavBar';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import ItemListContainer from './Components/ItemListContainer';
 import './Components/CartWidget.css'
 import './App.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import BoxingGloves from './Components/BoxingGloves';
-import MmaGloves from './Components/MmaGloves'
+import ItemDetailContainer from './Components/ItemDetailContainer';
 import CartWidget from './Components/CartWidget';
 import Error from './Components/Error';
-import ShinGuards from './Components/ShinGuards';
-import Api from './Components/FetchData';
+
+
 
 function App() {
   return (
@@ -19,9 +18,8 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<ItemListContainer greeting="Home"/>} />
-        <Route path='/boxinggloves' element={<BoxingGloves/>} />
-        <Route path='/mmagloves' element={<MmaGloves/>} />
-        <Route path='/shinguards' element={<ShinGuards />} />
+        <Route path='category/:id' element={<ItemListContainer/>} />
+        <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
         <Route path='/cart' element={<CartWidget />} />
         <Route path= '*' element={<Error/>} />
       </Routes>

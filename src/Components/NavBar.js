@@ -14,13 +14,13 @@ const NavBar = () => {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/boxinggloves">Boxing Gloves</Link>
+          <Link className="nav-link active" aria-current="page" to="/category/BoxingGloves">Boxing Gloves</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/mmagloves"> MMA Gloves</Link>
+          <Link className="nav-link" to="/category/MMAGloves"> MMA Gloves</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/shinguards">Shin Guards</Link>
+          <Link className="nav-link" to="/category/ShinGuards">Shin Guards</Link>
         </li>
       </ul>
       <div className="navbar-text">
