@@ -1,9 +1,12 @@
 import React from 'react'
+import Api from './FetchData'
 
-const ItemListContainer = (props) => {
+const ItemListContainer = () => {
   return (
     <div>
-        <h1>{props.greeting}</h1>
+
+      
+        <Api/>
         
 
     </div>

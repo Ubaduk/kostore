@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Twins Boxing Gloves - Black",
+        "description": "These Twins Thai Boxing Gloves are perfect for Boxing, Muay Thai, Kickboxing. You can use them as Bag and Pad Gloves, Sparring Gloves or Fight Gloves. They are perfect for Adult and Kids, Men or Women .Hand Crafted in Thailand.100% Cowhide Leather boxing gloves with Velcro Wrist strap that gives maximum support for your hand and wrist while you are training.Twins Black boxing gloves are great all round boxing gloves.Attached thumb for extra safety when training.Twins is one of the oldest and most trusted of the Thai Brands.Available in 8,10,12,14 and 16oz",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/gloves twins black/bgvl-3-black-4-0-8-1-960x960.jpeg",
+        "price": 125,
+        "stock": 10,
+        "Category": "Boxing Gloves"
+    },
+    {
+        "id": 2,
+        "name": "Fairtex Universal Boxing Gloves - Black",
+        "description": "Ergonomically engineered with a unique contoured design and tight fitting hand compartment to provide a more secure and snug fit.Constructed using full premium grade quality leather materials with Fairtex's signature three-layered multi foam system for excellent hand and knuckle protection along with superior shock disbursement.The flagship glove in the Fairtex range is more popular now than ever.",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/gloves twins black/bgvl-3-black-4-0-8-1-960x960.jpeg",
+        "price": 100,
+        "stock": 10,
+        "Category": "Boxing Gloves"
+    },
+    {
+        "id": 3,
+        "name": "Cleto Reyes Lace Up Sparring Gloves - White",
+        "description": "These Cleto Reyes traditional lace leather boxing gloves are handcrafted in Mexico using only the highest quality materials.The attached thumb on the Cleto Reyes lace up boxing gloves helps to prevent thumb and eye injuries.Inside the boxing gloves the water repellent lining prevents moisture from entering the padding",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/gloves cleto white/3ccaed2f09d8b971100d65861e682763.jpeg",
+        "price": 250,
+        "stock": 10,
+        "Category": "Boxing Gloves"
+    },
+    {
+        "id": 4,
+        "name": "Fairtex Super MMA Sparring Gloves - Black/Yellow",
+        "description": "A hybrid design MMA gloves that feature extra thick padding on the knuckle for maximum safety.Along with extra padding on the wrist and thumb areas, these sparring gloves are one of the best on the market for absorbing impact, constructed with Syntex leather material the gloves are very easy to form a fist and the wrap-around wrist strap provides maximum comfort.Made of premium syntex leather and designed in conjunction with UFC heavyweight Alistair Overeem. Available in sizes Medium, Large and XLarge",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/mma gloves fairtex black:yellow/tumbnail_7407ed98-5136-4642-8592-ee8820be5720.jpeg",
+        "price": 79.99,
+        "stock": 10,
+        "Category": "MMA Gloves"
+    },
+    {
+        "id": 5,
+        "name": "Venum Challenger 3.0 MMA Sparring Gloves",
+        "description": "The Venum Challenger 3.0 sparring gloves have been constructed using high-quality injected foam padding which offers optimal shock absorption and the ultimate protection not only for the fighter but also for the opponent.The shape of the Challenger 3.0 sparring gloves facilitates the execution of all grappling techniques, featuring a neoprene interior that helps wick away moisture and a large hook and loop closure system which ensures the best wrist support, to avoid any risk of injury.8oz padding and quality throughout the Venum Challenger 3.0 mixed martial arts gloves will last you a lifetime.",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/mma venum challenger/tumbnail_0c159c0c-580e-447b-acf8-a99b263fbfb9.jpeg",
+        "price": 54.99,
+        "stock": 10,
+        "Category": "MMA Gloves"
+    },
+    {
+        "id": 6,
+        "name": "Booster MMA Sparring Gloves - Black/White",
+        "description": "These gloves are simply the best value sparring MMA gloves on the market.Used by professional fighters in their every day training routine the unique injected mold makes sure you can throw some serious punches without injuring your hands whilst the padded thumb gives you that extra safe feeling while sparring.The wrap around velcro closure gives good wrist support & a fully open palm lends for a very good grip.",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/mma gloves booster black:white/tumbnail_35d8d401-8296-4c22-986b-04233db482a2.jpeg",
+        "price": 29.99,
+        "stock": 10,
+        "Category": "MMA Gloves"
+    },
+    {
+        "id": 7,
+        "name": "Fairtex Double Padded Shin Guards",
+        "description": "Constructed of Fairtex durable Syntek Leather with triple layers of high impact foam core makes these shin pads hard on the outer layer & soft on the inner layer making for maximum shock disbursement.Contoured, form fitting design for a natural feel with fully adjustable leg hook & loop closure straps.Extended instep with elastic band strap for maximum secure fit, comfort & protectionDurable cotton stretch denim lining to prevent slipping.",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/fairtex double padded shin guards",
+        "price": 69.99,
+        "stock": 10,
+        "Category": "ShinGuards"
+    },
+    {
+        "id": 8,
+        "name": "Fairtex Muay Thai Shin Pads - Red",
+        "description": "Featuring the new stitch-free open system the Fairtex Muay Thai shin guards have no stitching between the shin protector and foot protector in order to avoid the press of the stitching on your foot that can cause injury and discomfort. No metal loops have been used on the shinguards meaning they can be used in all major events or in amateur competitions.Constructed using Fairtex durable Syntek leather with a double layer of high-impact shock-absorbing foam to help will all impacts during training.Durable cotton stretch denim lining has been used to prevent any slipping of the shin and soft piping has been incorporated on the turn-up of the foot protector to avoid irritation to your feet.Designed to attach to your shin as tight as possible for a more natural feel, available in sizes Medium, Large and XLarge",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/fairtex muay thai shin pads red/shin-red-1.jpeg",
+        "price": 74.99,
+        "stock": 10,
+        "Category": "ShinGuards"
+    },
+    {
+        "id": 9,
+        "name": "Venum Challenger Kids Shin Guards - Black/Black",
+        "description": "Designed in Thailand, the challenger children's shin guards are composed of an anatomical cut that has been completed by high-density foam reinforcements, to not only protect your child during their fights but to prolong the life of the shin pads ensuring long-lasting quality. A hook and loop fastening has been incorporated into the shin guards for extra safety and to ensure a comfortable fit an elasticated strap can be found underneath the foot area. To comply with competition regulations no buckles have been used on the shinguards.An ultra-lightweight shin guard that can be used for MMA training, Muay Thai and Kickboxing, suitable for boys or girls.",
+        "img": "/Users/antonellapiconemenchaca/Desktop/proyecto react/kostore/public/media/products/venum challenge shin pads black/tumbnail_0ec3faaa-f4b7-40c7-beb2-77d254d02be8.jpeg",
+        "price": 59.99,
+        "stock": 10,
+        "Category": "ShinGuards"
+    }
+]

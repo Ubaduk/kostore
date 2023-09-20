@@ -1,24 +1,34 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import CartWidget from './CartWidget';
 
+import CartWidget from './CartWidget';
+import {Link} from 'react-router-dom';
 const NavBar = () => {
   return (
     <div>
-    <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-        <Navbar.Brand href="#home">K.O Store</Navbar.Brand>
-         
-          <Nav className="me-auto">
-         
-            <Nav.Link href="#Gloves">Gloves</Nav.Link>
-            <Nav.Link href="#Clothes">Clothes</Nav.Link>
-            <Nav.Link id='cartwidget' href="#CartWidgett"> <CartWidget/> </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div className="container-fluid">
+    <Link className="navbar-brand" to="/">Ko Store</Link>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarText">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/boxinggloves">Boxing Gloves</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/mmagloves"> MMA Gloves</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/shinguards">Shin Guards</Link>
+        </li>
+      </ul>
+      <div className="navbar-text">
+      <Link to="/cart" > <CartWidget/> </Link>
+      </div>
+    </div>
+  </div>
+</nav>
   </div>
   )
 }
